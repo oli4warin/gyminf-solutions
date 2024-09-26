@@ -1,0 +1,5 @@
+<svg>
+  <ellipse cx="150" cy="50" rx="100" ry="50" fill="orange">
+    <animate attributeName="ry" values="50;20;50" dur="1s" repeatCount="indefinite" />
+  </ellipse>
+</svg>

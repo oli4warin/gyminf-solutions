@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+	\draw[blue, name path=path1] (0,0) to (0.2,4);
+	\draw[blue, name path=path2] (0.5,0)
+	to[bend left] (-0.5,1) to[bend left] (0.5,3)
+	to[bend right] (-0.5,4);
+	\draw[name intersections={of=path1 and path2, by={A,B,C}}];
+	\fill[red] (A) circle (2pt) node [above right] {\(A\)};
+	\fill[red] (B) circle (2pt) node [below right] {\(B\)};
+	\fill[red] (C) circle (2pt) node [above right] {\(C\)};
+\end{tikzpicture}

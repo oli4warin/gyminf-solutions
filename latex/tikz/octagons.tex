@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+	\foreach \r in {0.2,0.4,...,2} {
+			\draw (0:\r)
+			\foreach \i in {0,...,8} {
+					to (360/8*\i:\r)
+				} to cycle;
+		}
+\end{tikzpicture}

@@ -1,0 +1,11 @@
+.smiley {
+  background-image: url("https://publicdomainvectors.org/photos/SmileClown2.png");
+  background-size: cover;
+  display: inline-block;
+  width: 217px;
+  height: 200px;
+}
+
+.smiley:hover {
+  background-image: url("https://publicdomainvectors.org/photos/1374331292.png");
+}

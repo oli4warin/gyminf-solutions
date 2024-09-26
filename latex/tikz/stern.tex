@@ -1,0 +1,13 @@
+\newcommand\stern[3]{
+	\def\zacken{#1}
+	\def\r{#2}
+	\def\R{#3}
+	\centering
+	\begin{tikzpicture}[ultra thick]
+		\draw (0:\r)
+		\foreach \i in {1,...,\zacken}	{
+		to ({\i*360/\zacken-180/\zacken}:{\R})
+		to ({\i*360/\zacken}:{\r})
+		} --cycle;
+	\end{tikzpicture}
+}

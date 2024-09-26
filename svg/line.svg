@@ -1,0 +1,6 @@
+<svg>
+ <line
+	x1="10" y1="0" x2="60" y2="30"
+	stroke="green"
+ />
+</svg>

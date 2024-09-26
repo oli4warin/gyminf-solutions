@@ -1,0 +1,7 @@
+.img-center {
+  text-align: center;
+}
+
+.img-center > img {
+  width: 70%;
+}

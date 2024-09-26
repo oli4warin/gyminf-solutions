@@ -1,0 +1,14 @@
+<svg>
+	<polyline
+	  points="
+			  60, 10
+			  65, 20
+			  70, 15
+			  75, 30
+			  80, 25
+			  85, 40
+			  90, 35
+			"
+			stroke="red" stroke-width="2" fill="none"
+ />
+</svg>

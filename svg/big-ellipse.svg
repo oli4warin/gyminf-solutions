@@ -1,0 +1,6 @@
+<svg height="320">
+    <ellipse 
+        cx="200" cy="130" rx="200" ry="120" 
+        fill="yellow" stroke="purple" stroke-width="20"
+    />
+</svg>

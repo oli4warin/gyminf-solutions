@@ -1,0 +1,5 @@
+<svg>
+    <ellipse cx="200" cy="80" rx="200" ry="20" fill="purple" />
+    <ellipse cx="170" cy="50" rx="170" ry="20" fill="green" />
+    <ellipse cx="140" cy="20" rx="140" ry="20" fill="yellow" />
+</svg>

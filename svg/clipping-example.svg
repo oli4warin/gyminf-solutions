@@ -1,0 +1,15 @@
+<svg viewBox="-1 -5 32 30">
+  <clipPath id="clip-circle">
+    <circle cx="15" cy="5" r="10"/>
+  </clipPath>
+  <polygon 
+    points="0 0 30 0 15 20" 
+    clip-path="url(#clip-circle)" 
+    fill="red"
+  />
+  <polygon
+    points="0 0 30 0 15 20" 
+    fill="none" 
+    stroke="blue"
+  />
+</svg>

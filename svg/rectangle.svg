@@ -1,0 +1,6 @@
+<svg>
+  <rect
+    x="0" y="0" width="50" height="25"
+    fill="red" rx="5" ry="5"
+  />
+</svg>

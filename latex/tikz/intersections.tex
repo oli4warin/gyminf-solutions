@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+	\coordinate[label=\(A\)] (A) at (-1,-0.8);
+	\coordinate[label=\(B\)] (B) at (1,4);
+	\coordinate[label=\(C\)] (C) at (-1.5,3.5);
+	\coordinate[label=\(D\)] (D) at (1,-1);
+	\draw (A) to (B);
+	\draw (C) to (D);
+	\coordinate[label=right:\(S\)] (S) at
+	(intersection of A--B and C--D);
+	\fill[red] (S) circle (2pt);
+\end{tikzpicture}

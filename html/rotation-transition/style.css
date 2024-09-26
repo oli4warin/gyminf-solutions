@@ -1,0 +1,8 @@
+.rotate {
+  position: absolute;
+  transition: all 1s ease-in-out;
+}
+
+.rotate:hover {
+  rotate: 90deg;
+}

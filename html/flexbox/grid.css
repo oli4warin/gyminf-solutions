@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.flex-container div {
+  background-color: gray;
+  padding: 30px;
+  margin: 10px;
+  width: 50px;
+  text-align: center;
+}

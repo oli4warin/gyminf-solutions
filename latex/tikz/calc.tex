@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+	\coordinate[label=below:$A$] (A) at (0,0);
+	\coordinate[label=below:$B$] (B) at (2,1);
+	\coordinate[label=below:$M$] (M) at
+	($(A)!0.5!(B)$);
+	\draw (A) to (B);
+	\fill[red] (M) circle (2pt);
+	\draw (M) circle ({0.5*sqrt(2)});
+	\coordinate[label=above:$P$] (P) at
+	($(M)!2!90:(B)$);
+	\draw (M) to (P);
+\end{tikzpicture}

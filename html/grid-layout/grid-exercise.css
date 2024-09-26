@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 50% 10% auto;
+  gap: 1rem;
+}
+
+.grid-container > div {
+  border: 5px solid black;
+  background-color: lightgray;
+  padding: 1rem 2rem;
+  font-size: xx-large;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.double-item {
+  grid-column: span 2;
+}

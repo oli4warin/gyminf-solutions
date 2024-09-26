@@ -1,0 +1,15 @@
+<svg width="800" height="200">
+    <path stroke="black" id="wave" stroke-width="0.5" fill="transparent"
+        d="M 0 100 
+            q 100 100 200 0 
+            t 200 0
+            t 200 0
+            "
+    />
+    <text text-anchor="middle">
+    Gymnasium Muttenz
+        <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
+        	<mpath href="#wave"/>
+				</animateMotion>
+    </text>
+</svg>

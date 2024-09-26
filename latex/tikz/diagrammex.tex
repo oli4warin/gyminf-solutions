@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+	\node (A) at (0,0) [rectangle,shade,draw] {$\frac{\cos(x)}{\sqrt{x}}$};
+	\node (B) at (3,0) [rectangle,shade,draw] {$\frac{\sin(x)}{\sqrt{x}}$};
+	\node (C) at (0,-3) [shade,draw] {$\frac{\tan(x)}{\sqrt{x}}$};
+	\node (D) at (5,-1.5) [circle,fill=black,draw,text=white]
+	{$\frac{\tan(x)}{\sqrt{x^3}}$};
+	\draw [->,very thick] (A) to[bend left]  node [above] {Operation} (B);
+	\draw [->,very thick,color=blue] (A) to[bend left]  (C);
+	\draw [->,very thick,color=red] (C) to[bend left]  (A);
+	\draw [<->,>=latex,orange,ultra thick, name path=path1] (A) to (D);
+	\draw [->,very thick,color=green, name path=path2] (B) to[bend left] (C);
+	\draw[name intersections={of=path1 and path2, by={S}}];
+	\fill[blue] (S) circle (3pt) node [below right] {$S$};
+\end{tikzpicture}

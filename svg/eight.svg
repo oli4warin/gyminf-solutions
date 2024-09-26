@@ -1,0 +1,6 @@
+<svg>
+    <path 
+        d="M 5 50 q 0 80 100 0 t 100 0 q 0 80 -100 0 t -100 0" 
+        fill="none" stroke="red" stroke-width="5"
+    />
+</svg>

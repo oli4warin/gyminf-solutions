@@ -1,0 +1,10 @@
+<svg>
+	<polygon
+	  points="
+			 0 0
+			 40 50
+			 70 -10
+			"
+			stroke="purple" stroke-width="2" fill="lime"
+ />
+</svg>

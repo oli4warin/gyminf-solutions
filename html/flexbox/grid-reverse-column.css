@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  algign-items: center;
+}
+
+.flex-container div {
+  background-color: gray;
+  padding: 30px;
+  margin: 10px;
+  width: 50px;
+  text-align: center;
+}

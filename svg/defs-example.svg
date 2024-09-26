@@ -1,0 +1,22 @@
+<svg>
+    <defs>
+        <polygon 
+            id="triangle" 
+            points="0 0 50 0 25 50"
+        />
+    </defs>
+    <use 
+        href="#triangle"
+        fill="red"
+    />
+    <use 
+        href="#triangle"
+        x="0" y="50"
+        fill="orange"
+    />
+    <use 
+        href="#triangle"
+        transform="translate(80,20) rotate(90)" 
+        fill="blue" 
+    />
+</svg>

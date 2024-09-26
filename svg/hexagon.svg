@@ -1,0 +1,6 @@
+<svg>
+    <path 
+        d="M 35 5 l -30 40 l 30 40 l 50 0 l 30 -40 l -30 -40 z" 
+        stroke="purple" fill="green" stroke-width="5"
+    />
+</svg>

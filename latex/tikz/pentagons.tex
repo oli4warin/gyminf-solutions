@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+	\foreach \r in {0.2,0.4,...,1.6} {
+			\draw (0:\r)
+			\foreach \i in {1,...,5} {
+					to (\i*360/5:\r)
+				} to cycle;
+		}
+\end{tikzpicture}

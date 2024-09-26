@@ -1,0 +1,17 @@
+.blue-to-red {
+  color: blue;
+  font-size: xx-large;
+  position: relative;
+  animation: blue-to-red 5s 3s ease-in-out forwards;
+}
+
+@keyframes blue-to-red {
+  from {
+    left: 0px;
+    color: blue;
+  }
+  to {
+    left: 400px;
+    color: red;
+  }
+}

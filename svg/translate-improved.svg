@@ -1,0 +1,15 @@
+<svg>
+  <path id="wave" 
+    d="M0 20 q10 -20 20 0 t20 0"
+    stroke="red" fill="none"
+  />
+  <use href="#wave" 
+    transform="translate(0,5)"
+  />
+  <use href="#wave" 
+    transform="translate(0,10)"
+  />
+  <use href="#wave" 
+    transform="translate(0,15)"
+  />
+</svg>

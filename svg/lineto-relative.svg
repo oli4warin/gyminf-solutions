@@ -1,0 +1,11 @@
+<svg>
+<path
+  d="
+    M0 10
+    l10 5
+    M20 0
+    l20 10
+  "
+  stroke="black" fill="none"
+/>
+</svg>
